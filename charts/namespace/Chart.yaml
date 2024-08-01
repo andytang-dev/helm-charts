@@ -4,4 +4,3 @@ description: A Helm chart for setting up a namespace
 type: application
 version: 0.1.1
 appVersion: 1.14.5
-icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
