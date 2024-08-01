@@ -3,6 +3,17 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.14.5
+    created: "2024-08-01T10:49:02.230918601Z"
+    description: A Helm chart for deploying cert-manager
+    digest: 051fbef9bdb5a5d5c4bf65b0786513f796e8b35d6a6878ec1a1c073ce94cf704
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-0.1.5/cert-manager-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.14.5
     created: "2024-08-01T09:25:57.572657163Z"
     description: A Helm chart for deploying cert-manager
     digest: fc3331823767ab7283f4af99854a04326b5b61ec89a9c72068b6c8b9f852264f
@@ -24,4 +35,4 @@ entries:
     urls:
     - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-chart-0.1.3/cert-manager-chart-0.1.3.tgz
     version: 0.1.3
-generated: "2024-08-01T09:25:57.572687329Z"
+generated: "2024-08-01T10:49:02.230925835Z"
