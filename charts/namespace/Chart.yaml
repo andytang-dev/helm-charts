@@ -3,4 +3,4 @@ name: namespace
 description: A Helm chart for setting up a namespace
 type: application
 version: 0.1.4
-appVersion: 1.14.5
+appVersion: 1.30.3
