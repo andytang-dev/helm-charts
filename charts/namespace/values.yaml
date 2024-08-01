@@ -1,0 +1,10 @@
+resourceQuota:
+  hard:
+    requests.cpu: "1"
+    requests.memory: "1Gi"
+    limits.cpu: "2"
+    limits.memory: "2Gi"
+    pods: "10"
+    services: "5"
+    persistentvolumeclaims: "5"
+    deployments.apps: "5"

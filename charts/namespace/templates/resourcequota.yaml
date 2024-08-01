@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: {{ .Values.resourceQuota.name | default (printf "%s-quota" .Values.namespace.name) }}
+  namespace: {{ .Values.namespace.name }}
+spec:
+  hard:
+{{- range $key, $value := .Values.resourceQuota.hard }}
+    {{ $key }}: "{{ $value }}"
+{{- end }}
