@@ -1,4 +1,3 @@
-# Cluster Issuer configuration
 clusterIssuer:
   name: letsencrypt-issuer
   acme:
