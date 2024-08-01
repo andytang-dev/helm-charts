@@ -1,0 +1,6 @@
+certificate:
+  spec:
+    issuerRef:
+      name: letsencrypt-issuer
+      kind: ClusterIssuer
+      group: cert-manager.io
