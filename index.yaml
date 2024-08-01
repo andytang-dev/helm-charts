@@ -69,4 +69,15 @@ entries:
     urls:
     - https://github.com/andytang-dev/helm-charts/releases/download/certificate-0.1.1/certificate-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-01T11:10:09.183510423Z"
+  namespace:
+  - apiVersion: v2
+    appVersion: 1.14.5
+    created: "2024-08-01T11:22:00.38278906Z"
+    description: A Helm chart for setting up a namespace
+    digest: 23bdaf3cb18f0fba728d1f61f882bae229dc435a0d8023d9eded38aef67af343
+    name: namespace
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/namespace-0.1.1/namespace-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-08-01T11:22:00.382820519Z"
