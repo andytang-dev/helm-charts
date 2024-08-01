@@ -2,7 +2,6 @@ apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
   name: {{ .Values.clusterIssuer.name }}
-  namespace: {{ .Values.namespace | default .Release.Namespace }}
 spec:
   acme:
     email: {{ .Values.clusterIssuer.acme.email }}
