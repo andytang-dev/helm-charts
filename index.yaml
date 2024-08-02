@@ -3,6 +3,17 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.14.5
+    created: "2024-08-02T03:40:51.138868086Z"
+    description: A Helm chart for deploying cert-manager
+    digest: 8122976d87cb85605fcc3457f056a52030f0fbc4d1e51b768a03309486522d87
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-0.1.12/cert-manager-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: 1.14.5
     created: "2024-08-01T11:44:34.334519148Z"
     description: A Helm chart for deploying cert-manager
     digest: 4659904748427e31bca62701908c0075f3f7bb1c0925966e86e22a6ff4a40314
@@ -93,6 +104,17 @@ entries:
   certificate:
   - apiVersion: v2
     appVersion: 1.14.5
+    created: "2024-08-02T03:40:51.3280101Z"
+    description: A Helm chart for deploying cert-manager certificate
+    digest: 4521430a682b860cc83796724022718bf6b70352e80d5a78a6671abfce7bd649
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: certificate
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/certificate-0.1.6/certificate-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.14.5
     created: "2024-08-01T11:44:34.446994507Z"
     description: A Helm chart for deploying cert-manager certificate
     digest: 647b16e41a3c0fa21f2bf25db987b54d0f659e1d651f621945fc9a3d98460737
@@ -138,6 +160,16 @@ entries:
   namespace:
   - apiVersion: v2
     appVersion: 1.30.3
+    created: "2024-08-02T03:40:51.518206256Z"
+    description: A Helm chart for setting up a namespace
+    digest: 3b9498a456af76a27cc301ff10e3c00fea19c067c5d3d44ce284dd711f30ee45
+    name: namespace
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/namespace-0.1.5/namespace-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.30.3
     created: "2024-08-01T11:44:34.554008368Z"
     description: A Helm chart for setting up a namespace
     digest: 429e7f81f074a92d25fcafc1a6c2d6ecfee1c1ff7ffc1cf743d0014e39463002
@@ -176,4 +208,4 @@ entries:
     urls:
     - https://github.com/andytang-dev/helm-charts/releases/download/namespace-0.1.1/namespace-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-01T11:44:34.554064032Z"
+generated: "2024-08-02T03:40:51.518359734Z"
