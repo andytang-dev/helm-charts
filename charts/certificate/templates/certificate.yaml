@@ -11,5 +11,5 @@ spec:
     group: {{ .Values.certificate.issuerRef.group }}
   dnsNames:
 {{- range .Values.certificate.dnsNames }}
-    - {{ . }}
+    - "{{ . }}"
 {{- end }}
