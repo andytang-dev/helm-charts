@@ -1,0 +1,16 @@
+deployment:
+  replicaCount: 1
+  maxSurge: 25%
+  maxUnavailable: 25%
+  imagePullPolicy: Always
+  containerPort: 80
+  imagePullSecrets: []
+  resources:
+    requests:
+      memory: "64Mi"
+      cpu: "250m"
+    limits:
+      memory: "128Mi"
+      cpu: "500m"
+  restartPolicy: Always
+  envFrom: []
