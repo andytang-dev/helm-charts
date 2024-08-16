@@ -1,9 +1,9 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: "{{ .Release.Namespace}}-ingress-https"
+  name: "{{ .Release.Namespace}}-ingress-{{ .Values.deployment.name }}"
   labels:
-    app: "{{ .Release.Namespace}}-ingress-https"
+    app: "{{ .Release.Namespace}}-ingress-{{ .Values.deployment.name }}"
   namespace: {{ .Release.Namespace}}
   annotations:
     cert-manager.io/issuer: "letsencrypt-issuer"
