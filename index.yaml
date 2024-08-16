@@ -1,6 +1,28 @@
 apiVersion: v1
 entries:
+  application:
+  - apiVersion: v2
+    appVersion: 1.30.3
+    created: "2024-08-16T17:40:19.564901193Z"
+    description: A Helm chart for deploying an application
+    digest: 6a85c97946beddc896f06fe94c3648d3d0260da27e4cb88eb39d0f52aea8fc1f
+    name: application
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/application-0.1.0/application-0.1.0.tgz
+    version: 0.1.0
   cert-manager:
+  - apiVersion: v2
+    appVersion: 1.14.5
+    created: "2024-08-16T17:40:19.692989277Z"
+    description: A Helm chart for deploying cert-manager
+    digest: f9937d22f124719c0afcd855e05ab8680c97c7e30930560e4191364a15e01b4a
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-0.1.16/cert-manager-0.1.16.tgz
+    version: 0.1.16
   - apiVersion: v2
     appVersion: 1.14.5
     created: "2024-08-16T17:16:12.150199963Z"
@@ -135,6 +157,17 @@ entries:
     - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-chart-0.1.3/cert-manager-chart-0.1.3.tgz
     version: 0.1.3
   certificate:
+  - apiVersion: v2
+    appVersion: 1.14.5
+    created: "2024-08-16T17:40:19.836543294Z"
+    description: A Helm chart for deploying cert-manager certificate
+    digest: 86d0ebdd9258c7c3ff41d1a656f589dd90dae7612026edab313ea833c45577c8
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: certificate
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/certificate-0.1.10/certificate-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v2
     appVersion: 1.14.5
     created: "2024-08-16T17:16:12.27328441Z"
@@ -304,4 +337,4 @@ entries:
     urls:
     - https://github.com/andytang-dev/helm-charts/releases/download/namespace-0.1.1/namespace-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-16T17:16:12.36897367Z"
+generated: "2024-08-16T17:40:19.836664973Z"
