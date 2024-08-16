@@ -15,3 +15,8 @@ repositories:
 - name: andytang
   url: https://andytang-dev.github.io/helm-charts
 ```
+
+### Debug
+```bash
+$ helm template --debug .
+```
