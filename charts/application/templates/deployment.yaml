@@ -23,15 +23,13 @@ spec:
           image: "{{ .Values.deployment.imageName }}:{{ .Values.deployment.imageTag }}"
           imagePullPolicy: {{ .Values.deployment.imagePullPolicy }}
           resources:
-{{- toYaml .Values.deployment.resources | nindent 12 }}
+            {{- toYaml .Values.deployment.resources | nindent 12 }}
           ports:
             - name: http
               containerPort: {{ .Values.deployment.containerPort }}
-          {{- if .Values.envFrom }}
+          {{- with .Values.deployment.envFrom }}
           envFrom:
-            {{- range .Values.deployment.envFrom }}
-            - {{ . | toYaml | nindent 12 }}
-            {{- end }}
+            {{- toYaml . | nindent 12}}
           {{- end }}
       imagePullSecrets:
         {{- if .Values.deployment.imagePullSecrets }}
