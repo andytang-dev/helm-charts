@@ -3,6 +3,16 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.30.3
+    created: "2024-08-16T23:45:03.957176854Z"
+    description: A Helm chart for deploying an application
+    digest: 22e634266d69dfcb97dd5d3caec73642f409106f200dc0ce5664a20dd1d2a94f
+    name: application
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/application-0.1.6/application-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.30.3
     created: "2024-08-16T21:46:29.891671286Z"
     description: A Helm chart for deploying an application
     digest: 8f527962fd3b0ae25957cd2c0ae3be7a8de19aef94b77b1387734afbaec2b58d
@@ -62,6 +72,17 @@ entries:
     - https://github.com/andytang-dev/helm-charts/releases/download/application-0.1.0/application-0.1.0.tgz
     version: 0.1.0
   cert-manager:
+  - apiVersion: v2
+    appVersion: 1.14.5
+    created: "2024-08-16T23:45:04.052969798Z"
+    description: A Helm chart for deploying cert-manager
+    digest: 5439c368b68188688029bae9ec778326f85ad6679f81f590a9282b3612452c4d
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-0.1.22/cert-manager-0.1.22.tgz
+    version: 0.1.22
   - apiVersion: v2
     appVersion: 1.14.5
     created: "2024-08-16T21:46:29.989777732Z"
@@ -262,6 +283,17 @@ entries:
     - https://github.com/andytang-dev/helm-charts/releases/download/cert-manager-chart-0.1.3/cert-manager-chart-0.1.3.tgz
     version: 0.1.3
   certificate:
+  - apiVersion: v2
+    appVersion: 1.14.5
+    created: "2024-08-16T23:45:04.165909117Z"
+    description: A Helm chart for deploying cert-manager certificate
+    digest: a61e6f4883fbb2b19469842bc5e51dd261d50691d42cb45be7ffebafe45ad8a3
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: certificate
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/certificate-0.1.16/certificate-0.1.16.tgz
+    version: 0.1.16
   - apiVersion: v2
     appVersion: 1.14.5
     created: "2024-08-16T21:46:30.12652784Z"
@@ -497,4 +529,4 @@ entries:
     urls:
     - https://github.com/andytang-dev/helm-charts/releases/download/namespace-0.1.1/namespace-0.1.1.tgz
     version: 0.1.1
-generated: "2024-08-16T21:46:30.126840635Z"
+generated: "2024-08-16T23:45:04.166264542Z"
