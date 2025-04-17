@@ -1,7 +1,7 @@
 apiVersion: v2
-name: cert-manager
-description: A Helm chart for deploying cert-manager
+name: cluster-issuer
+description: A Helm chart for deploying cluster-issuer
 type: application
 version: 0.1.24
-appVersion: 1.14.5
+appVersion: 1.16.4
 icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
