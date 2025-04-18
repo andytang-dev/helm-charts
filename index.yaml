@@ -3,6 +3,16 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.30.3
+    created: "2025-04-18T08:44:38.833903833Z"
+    description: A Helm chart for deploying an application
+    digest: a6a51e31ecf5fdc4f2fcb710d564a1609b81a3f2aa31532701d6037ee0ed7ef1
+    name: application
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/application-0.1.10/application-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: 1.30.3
     created: "2025-04-17T20:43:26.622716814Z"
     description: A Helm chart for deploying an application
     digest: acdf3634c4a2ced6db73f670710d3c72a6f1f8eaa34c6204fecafd442ca8958e
@@ -326,6 +336,17 @@ entries:
   certificate:
   - apiVersion: v2
     appVersion: 1.14.5
+    created: "2025-04-18T08:44:39.02651195Z"
+    description: A Helm chart for deploying cert-manager certificate
+    digest: 91aa802b2e60eebab556cb4ff9683b6e23785960509fa16d8de2b0d2c1ac00cf
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: certificate
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/certificate-0.1.20/certificate-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
+    appVersion: 1.14.5
     created: "2025-04-17T20:43:26.72718308Z"
     description: A Helm chart for deploying cert-manager certificate
     digest: 5d8216e7a89d47e67bfbb949f34594389db7f99d1658eed284945aefd51d281d
@@ -525,6 +546,17 @@ entries:
   cluster-issuer:
   - apiVersion: v2
     appVersion: 1.16.4
+    created: "2025-04-18T08:44:39.179494165Z"
+    description: A Helm chart for deploying cluster-issuer
+    digest: dc6e7890c64ae7fd6398512838bd2d84b0c79e5eb5281683465b4fe75509e8c5
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg
+    name: cluster-issuer
+    type: application
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/cluster-issuer-0.1.26/cluster-issuer-0.1.26.tgz
+    version: 0.1.26
+  - apiVersion: v2
+    appVersion: 1.16.4
     created: "2025-04-17T20:43:26.847205034Z"
     description: A Helm chart for deploying cluster-issuer
     digest: 7089ba92710a6adacc798035e346e8ca9f5330769c0a9f5b38e399dca18aea74
@@ -628,6 +660,14 @@ entries:
     version: 0.1.1
   secret:
   - apiVersion: v2
+    created: "2025-04-18T08:44:39.347289349Z"
+    description: A Helm chart for deploying Kubernetes secrets
+    digest: b35d333d1668c0dcfaeedf41269dc15cb3192bc97cbd3d815b55df16ce5a2045
+    name: secret
+    urls:
+    - https://github.com/andytang-dev/helm-charts/releases/download/secret-0.1.3/secret-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     created: "2025-04-17T20:43:26.94032352Z"
     description: A Helm chart for deploying Kubernetes secrets
     digest: 0d6526be3bb2bc69e32d9a4c1c0531f61737c2717cd9a6516a3573a7593ff861
@@ -643,4 +683,4 @@ entries:
     urls:
     - https://github.com/andytang-dev/helm-charts/releases/download/secret-0.1.1/secret-0.1.1.tgz
     version: 0.1.1
-generated: "2025-04-17T20:43:26.940570772Z"
+generated: "2025-04-18T08:44:39.347491095Z"
